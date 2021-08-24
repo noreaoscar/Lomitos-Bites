@@ -7,15 +7,19 @@
 ==========================================*/
 .main-section {
   width: 100%;
+  
+  
 }
-@media only screen and (min-width: 1051px) and (max-width: 1500px) {
+@media only screen and (min-width: 1051px) and (max-width: 1920px) {
   .main-section {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 .section_left {
   background-color: #ffefcf;
-  height: 937px;
+  height: 967px;
+  width: 50%;
   box-shadow: 1px 0px 30px rgba(0, 0, 0, 0.315);
   border: none;
 }
@@ -54,28 +58,26 @@ main .main-content a {
 .section-right {
   text-align: center;
   width: 50%;
+  
 }
 .content-right {
-  margin-left: 5vw;
-  margin-right: 15vw;
+  
   margin-top: 10vw;
-
-  min-width: 300px;
-  align-content: center;
-  margin-left: 8vw;
 }
 
 .h3-right {
-  font-size: 50px;
+  font-size: 3vw;
+  
   font-weight: 700;
   font-family: "Signika Negative", sans-serif;
-  margin-left: 4vw;
+  
   margin-bottom: 3vw;
 }
 
 .col-img {
   display: flex;
   width: 40vw;
+  margin: auto;
 }
 
 .dog {
@@ -103,351 +105,42 @@ main .main-content a {
 }
 
 .us-btn {
+  
   background-color: #ffbb32;
-
-  margin-top: 10vw;
-  margin-left: 36vw;
   display: flex;
-  padding: 0.5vw;
-  padding-left: 1vw;
-  margin-right: 1vw;
-  border-radius: 1vw;
-  text-decoration: none;
+ text-decoration: none;
+ float: right;
+ margin-right: 20px;
+ margin-top: 4vw;
+ border-radius: 3em;
 }
 
 .us-text {
-  font-size: 22px;
+  
+  font-size: 1.3vw;
   color: black;
   font-weight: bold;
   font-family: "Signika Negative", sans-serif;
+  
+  padding: .5vw;
+  
+  
 }
 .us-icon {
   width: 15px;
-  margin-left: 10px;
-}
-@media only screen and (min-width: 1300px) and (max-width: 1500px) {
-  /********RESPONSIVE SECTION LEFT********/
-  .section_left {
-    background-color: #ffefcf;
-    height: 821px;
-    box-shadow: 1px 0px 30px rgba(0, 0, 0, 0.315);
-    border: none;
-  }
-  .main-content {
-    margin-left: 5vw;
-    margin-right: 15vw;
-    margin-top: 10vw;
-    height: 500px;
-  }
-
-  .main-text {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: "Signika Negative", sans-serif;
-  }
-  .p-main {
-    font-family: "Signika Negative", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    margin-top: 1vw;
-    margin-bottom: 2vw;
-  }
-  main .main-content a {
-    font-family: "Signika Negative", sans-serif;
-    background-color: #ffbb32;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 19px;
-    padding: 10px 20px;
-  }
-
-  /********RESPONSIVE SECTION RIGHT********/
-  .content-right {
-    margin-left: 5vw;
-    margin-right: 15vw;
-    margin-top: 10vw;
-
-    align-content: center;
-    margin-left: 8vw;
-  }
-  .section-right {
-    text-align: center;
-    width: 50%;
-  }
-  .h3-right {
-    font-size: 40px;
-    font-weight: 700;
-    font-family: "Signika Negative", sans-serif;
-    margin-left: 4vw;
-    margin-bottom: 3vw;
-  }
-  .dog {
-    position: absolute;
-    width: 212.156px;
-    height: 296.58px;
-    background-color: #ffbb32;
-    margin-right: 1vw;
-    border-radius: 2em;
-    box-shadow: 0px 4px 4px #00000059;
-  }
-  .cat {
-    position: absolute;
-    width: 212.156px;
-    height: 296.58px;
-    background-color: #ffbb32;
-    margin-left: 1vw;
-    border-radius: 2em;
-    box-shadow: 0px 4px 4px #00000059;
-  }
-  .cat-img {
-    width: 280px;
-  }
-  .us-btn {
-    background-color: #ffbb32;
-
-    margin-top: 3vw;
-    margin-left: 36vw;
-    display: flex;
-    padding: 0.5vw;
-    padding-left: 1vw;
-    border-radius: 1vw;
-    text-decoration: none;
-    margin-right: 1vw;
-  }
-  .us-text {
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-    font-family: "Signika Negative", sans-serif;
-  }
-  .us-icon {
-    width: 15px;
-    margin-left: 10px;
-  }
+  
+  
+  padding: .5vw;
 }
 
-@media only screen and (min-width: 1050px) and (max-width: 1300px) {
-  /********RESPONSIVE SECTION LEFT********/
 
-  .section_left {
-    background-color: #ffefcf;
-    height: 821px;
-    box-shadow: 1px 0px 30px rgba(0, 0, 0, 0.315);
-    border: none;
-  }
-  .main-content {
-    margin-left: 5vw;
-    margin-right: 15vw;
-    margin-top: 10vw;
-  }
-
-  .main-text {
-    font-size: 3vw;
-    font-weight: bold;
-    font-family: "Signika Negative", sans-serif;
-  }
-  .p-main {
-    font-family: "Signika Negative", sans-serif;
-    font-size: 2vw;
-    font-weight: 300;
-    margin-top: 1vw;
-    margin-bottom: 2vw;
-  }
-  main .main-content a {
-    font-family: "Signika Negative", sans-serif;
-    background-color: #ffbb32;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 2vw;
-    border-radius: 19px;
-
-    padding: 10px 20px;
-  }
-
-  /********RESPONSIVE SECTION RIGHT********/
-  .content-right {
-    margin-left: 2vw;
-    margin-right: 15vw;
-    margin-top: 10vw;
-
-    align-content: center;
-    margin-left: 8vw;
-  }
-  .section-right {
-    text-align: center;
-
-    width: 50%;
-  }
-  .h3-right {
-    font-size: 3vw;
-    font-weight: 700;
-    font-family: "Signika Negative", sans-serif;
-    margin-left: 4vw;
-    margin-bottom: 3vw;
-  }
-  .dog {
-    position: absolute;
-    width: 17vw;
-    height: 23vw;
-    background-color: #ffbb32;
-    margin-right: 1vw;
-    border-radius: 2em;
-    box-shadow: 0px 4px 4px #00000059;
-  }
-  .cat {
-    position: absolute;
-    width: 17vw;
-    height: 23vw;
-    background-color: #ffbb32;
-    margin-left: 1vw;
-    border-radius: 2em;
-    box-shadow: 0px 4px 4px #00000059;
-    margin-right: 2vw;
-  }
-  .cat-img {
-    width: 22vw;
-  }
-  .us-btn {
-    background-color: #ffbb32;
-
-    margin-bottom: 4vw;
-    margin-left: 34vw;
-    display: flex;
-    padding: 0.5vw;
-    padding-left: 1vw;
-    border-radius: 1vw;
-    text-decoration: none;
-    margin-right: 1vw;
-  }
-  .us-text {
-    font-size: 1.5vw;
-    color: black;
-    font-weight: bold;
-    font-family: "Signika Negative", sans-serif;
-  }
-  .us-icon {
-    width: 15px;
-    margin-left: 10px;
-  }
+.social-icons{
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 8vw;
 }
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .main-section {
-    width: 100%;
-  }
-  .section_left {
-    background-color: #ffefcf;
-    height: 300px;
-    box-shadow: 1px 0px 30px rgba(0, 0, 0, 0.315);
-    border: none;
-  }
-  .main-content {
-    margin-left: 5vw;
-    margin-right: 15vw;
 
-    height: 500px;
-  }
-
-  .main-text {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "Signika Negative", sans-serif;
-  }
-  .p-main {
-    text-align: center;
-    font-family: "Signika Negative", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 1vw;
-    margin-bottom: 2vw;
-  }
-  main .main-content a {
-    font-family: "Signika Negative", sans-serif;
-    background-color: #ffbb32;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-    border-radius: 19px;
-    padding: 10px 20px;
-  }
-
-  /*********SECTION RIGHT********/
-
-  .section-right {
-    text-align: center;
-    width: 100%;
-  }
-  .content-right {
-    margin-left: 5vw;
-    margin-right: 15vw;
-
-    min-width: 300px;
-    align-content: center;
-    margin-left: 8vw;
-  }
-
-  .h3-right {
-    font-size: 50px;
-    font-weight: 700;
-    font-family: "Signika Negative", sans-serif;
-    margin-left: 4vw;
-    margin-bottom: 3vw;
-  }
-
-  .col-img {
-    display: flex;
-    width: 40vw;
-  }
-
-  .dog {
-    position: absolute;
-    width: 303.08px;
-    height: 423.69px;
-    background-color: #ffbb32;
-    margin-right: 1vw;
-    border-radius: 2em;
-    box-shadow: 0px 4px 4px #00000059;
-  }
-  .cat {
-    position: absolute;
-    width: 303.08px;
-    height: 423.69px;
-    background-color: #ffbb32;
-    margin-left: 1vw;
-    border-radius: 2em;
-    box-shadow: 0px 4px 4px #00000059;
-  }
-
-  .cat-img {
-    position: relative;
-    margin-top: 2vw;
-  }
-
-  .us-btn {
-    background-color: #ffbb32;
-
-    margin-top: 10vw;
-    margin-left: 36vw;
-    display: flex;
-    padding: 0.5vw;
-    padding-left: 1vw;
-    margin-right: 1vw;
-    border-radius: 1vw;
-    text-decoration: none;
-  }
-
-  .us-text {
-    font-size: 22px;
-    color: black;
-    font-weight: bold;
-    font-family: "Signika Negative", sans-serif;
-  }
-  .us-icon {
-    width: 15px;
-    margin-left: 10px;
-  }
+.social-icons:hover{
+  display: none;
 }
+
