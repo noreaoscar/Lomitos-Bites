@@ -1699,7 +1699,7 @@ ol {
 .navbar-expand-lg .navbar-nav {
   margin: 0;
   margin-left: auto !important;
-  margin-right: 3vw !important;
+  margin-right: 2vw !important;
 }
 
 .header .navbar .navbar-nav .nav-item a.active {
@@ -2181,5 +2181,141 @@ main .main-content a {
   margin-left: 20px;
   margin-top: 8vw;
 }
+
+/*============================================
+==========   Productos========================
+==========================================*/
+
+
+
+.main-productos{
+  background-color: #FFEFCF;
+  height: 546px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  min-width: 1920px;
+  z-index: 1;
+  
+  
+  
+
+}
+
+
+.productos-header{
+  width: 530px;
+  margin-top: 7vw;
+  margin-right: 3vw;
+  
+  
+}
+
+.btn-customer{
+  width: 430px;
+  background-color:#FFBB32;
+  display: flex;
+  padding: .3vw;
+  padding-left: .5vw;
+  border-radius: 3em;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  margin-left: 5.5vw;
+  margin-bottom: 1vw;
+  
+}
+
+.btn-customer p{
+  font-family: "Signika Negative", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  
+}
+.btn-customer img{
+  width: 20px;
+  margin-left: 1vw;
+}
+
+.productos-header h3{
+  font-size: 40px;
+  font-family: "Signika Negative", sans-serif;
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+.productos-header p{
+  font-size: 22px;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: normal;
+  color: #000000;
+  text-align: right;
+
+}
+  /*************/
+ /*** CARDS ***/
+/*************/
+
+.productos-cards{
+  width: 100%;
+  
+  position: relative;
+  
+  z-index: 2;
+  
+}
+
+.col-cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10%;
+  max-width: 1400px;
+  
+}
+.productos-card{
+  margin-top: 450px;
+}
+.productos-shape{
+  width: 346.78px;
+  background-color:#FFD278;
+  height: 484.87px;
+  position: absolute;
+  border-radius: 2em;
+  margin-top: 40px;
+}
+
+.productos-card img, h3, p{
+  position: relative;
+}
+
+.productos-card img{
+  margin-left: 25%;
+}
+.productos-card h3{
+  font-family: "Signika Negative", sans-serif;
+  text-align: left;
+  font-weight: bold;
+  max-width: 220px;
+  margin-left: 20px;
+  font-size: 32px;
+  margin-top: 10px;
+}
+.productos-card p{
+  font-family: "Signika Negative", sans-serif;
+  text-align: left;
+  max-width: 140px;
+  margin-left: 20px;
+  font-weight: normal;
+  color: #000000;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.card2 img{
+width: 232.94px;
+}
+
 
 
