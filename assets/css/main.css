@@ -2350,7 +2350,7 @@ main .main-content a {
 }
 
 /*============================================
-==========   Productos========================
+==========   categories========================
 ==========================================*/
 
 
@@ -2372,9 +2372,11 @@ main .main-content a {
 
 
 .productos-header{
-  width: 530px;
+  width: 100%;
+  max-width: 600px;
   margin-top: 5vw;
   margin-right: 3vw;
+  margin: auto;
   
   
 }
@@ -2407,7 +2409,7 @@ main .main-content a {
 
 .productos-header h3{
   font-size: 40px;
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'Londrina Solid', cursive;
   text-align: right;
   font-weight: bold;
   margin-bottom: 1vw;
@@ -2420,68 +2422,155 @@ main .main-content a {
   text-align: right;
 
 }
-  /*************/
- /*** CARDS ***/
-/*************/
 
-.productos-cards{
-  width: 100%;
-  
- 
-  
-  z-index: 2;
-  
+
+
+.categories-main{
+  background-color: #fcf9ef;;
+}
+.productos-categoria{
+  width: 347.69px;
+  margin: auto;
 }
 
-.col-cards{
-  
+
+.categories-section2{
+  width: 100%;
+}
+.categories-section2-content{
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 10%;
-  width: 70%;
+  padding: 100px 0px;
+  max-width: 1750px;
+  margin: auto;
+
+}
+.categories-section2-left{
+  margin: auto;
+}
+.categories-section2-right{
+  margin: auto;
+}
+.categories-section2-left h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  display: flex;
+  align-items: left;
+  color: #000000;
+  max-width: 500px;
+}
+.categories-section2-left p{
+font-family: 'Open Sans', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 38px;
+display: flex;
+align-items: left;
+color: #000000;
+max-width: 500px;
+}
+
+/*<!-- star product-label Area -->*/
+.categories-label{
+  width: 100%; 
+}
+.categories-label-content{
+  width: 98%;
+  max-width: 1750px;
+  margin: auto;
+  
+}
+.categories-label-title{
+  max-width: 1750px;
+  margin: auto;
   
 }
 
-.productos-shape{
-  width: 346.78px;
-  background-color:#FFD278;
-  height: 484.87px;
-  position: absolute;
-  border-radius: 2em;
-  margin-top: 40px;
-}
-
-.productos-card img, h3, p{
-  position: relative;
-}
-
-.productos-card img{
-  margin-left: 25%;
-}
-.productos-card h3{
-  font-family: "Signika Negative", sans-serif;
-  text-align: left;
+.categories-label-title h2{
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
   font-weight: bold;
-  max-width: 220px;
-  margin-left: 20px;
-  font-size: 32px;
-  margin-top: 10px;
-}
-.productos-card p{
-  font-family: "Signika Negative", sans-serif;
-  text-align: left;
-  max-width: 140px;
-  margin-left: 20px;
-  font-weight: normal;
+  font-size: 38px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: #000000;
-  font-size: 25px;
-  margin-top: 20px;
+  max-width: 530.97px;
+}
+.categories-label-title p{
+  font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+max-width: 530.97px;
+margin: auto;
+padding-bottom: 100px;
 }
 
-.card2 img{
-width: 232.94px;
+.categories-singleLabel-area{
+  width: 100%;
+  max-width: 1750px;
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin: auto;
 }
+.cateogries-singleLabel{
+  width: 350px;
+  
+  margin: auto;
+  margin-top: 30px;
+  
+}
+.cateogries-singleLabel h2{
+  font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 34px;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+margin: auto;
+
+}
+.singleLabel-img1{
+  max-width: 264px;
+  margin: auto;
+}
+.singleLabel-img2{
+  max-width: 264px;
+  margin: auto;
+}
+.singleLabel-img3{
+  max-width: 276.5px;
+  margin: auto;
+}
+.singleLabel-img4{
+  max-width: 296.02px;
+  margin: auto;
+}
+
+
+
+
+
+
+ 
 
 
 /*============================================
@@ -2689,7 +2778,8 @@ font-size: 22px;
 /*//////////////////INDEX/////////////////////*/
 .home-section1{
   width: 100%;
-  background-color: red;display: flex;
+  
+  display: flex;
 
 }
 
@@ -2839,3 +2929,16 @@ margin-top: 5px;
 
 
 
+
+
+/*///////////////////////////////////
+////////////EXTRA///////////////////
+///////////////////////////////////*/
+
+
+/*///////////////Productos */
+
+.productos-categoria{
+  width: 347.69px;
+  margin: auto;
+}
