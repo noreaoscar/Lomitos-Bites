@@ -2364,11 +2364,8 @@ main .main-content a {
   
   box-shadow: 0px 6px 10px  rgba(0, 0, 0, 0.315);
   z-index: 1;
-  
-  
-  
-
 }
+
 
 
 .productos-header{
@@ -2524,7 +2521,7 @@ padding-bottom: 100px;
   max-width: 1750px;
   display: flex;
   flex-wrap: wrap;
-  
+  padding-bottom: 100px;
   margin: auto;
 }
 .cateogries-singleLabel{
@@ -2688,43 +2685,331 @@ margin: auto;
 /*============================================
 ==========   Singles-Product =================
 ==========================================*/
-.top-single-product{
-  background-color: #FFEFCF;
-  width: 100%;
-  position: absolute;
-  height: 546px;
-}
-.top-content-single{
-  position: relative;
-  width: 80%;
+
+.singleProduct-header-content{
+  width: 98%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: auto;
+  max-width: 1300px;
+  padding-top: 150PX;
+  padding-bottom: 30PX;
+}
+.singleProduct-header-img{
+  width: 29vw;
+  max-width: 467px;
+  min-width: 300px;
   margin: auto;
 }
-.top-content-single img{
-  width: 35%;
-  margin-top: 100px;
-  min-width: 500px;
+.singleProduct-header-img img{
+  width: 29vw;
+  max-width: 467px;
+  min-width: 300px;
 }
-
-.left-text-single{
-  width: 500px;
+.singleProduct-header-right{
+  max-width: 532px;
+}
+.singleProduct-header-right h3{
+  font-family: "Signika Negative", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 59px;
+text-align: right;
+letter-spacing: 0.05em;
+color: #000000;
+padding-top: 60px;
+}
+.singleProduct-header-right P{
+  font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+align-items: center;
+text-align: right;
+color: #000000;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.singleProduct-header-btn{
+  display: flex;
+  width: 30vw;
+  max-width: 404.44px;
+  min-width: 350px;
+  background-color: #3B3B3B;
+  float: right;
+  border-radius: 19px;
+  
+}
+.singleProduct-header-btn img{
+width: 41.8px;
+margin: auto;
+padding: 5px 0px;
+}
+.singleProduct-header-btn p{
+  font-family: "Signika Negative", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 31px;
   text-align: right;
+  color: #FFFFFF;
+  margin: auto;
+  padding: 5px 0px;
+  
+}
+.singleProduct-section2{
+  max-width: 1500px;
+  margin: auto;
+}
+.singleProduct-var{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  margin: auto;
+}
+.singleProduct-singleVar{
+  width: 290.24px;
+  margin: auto;
+  border-radius: 19px;
+  margin-top: 50px;
+
+}
+.singleProduct-box{
+  margin: auto;
 }
 
-.left-text-single h2{
-  font-size: 40px;
-  font-family: "Signika Negative", sans-serif;
-  margin-top: 350px;
+.singleProduct-line{
+  width: 10px;
+  background-color: rgb(194, 194, 194);
+  height: 100px;
+  margin: auto;
 }
 
-.left-text-single p{
-  font-family: "Signika Negative", sans-serif;
-  color: #000000;
-  font-weight: 500;
+#resHover0{
+  background-color: #FFBB32;
+}
+.resHover:hover{
+  background: #FFBB32;
+  transition: .3s;
+}
+.singleProduct-singleVar h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 150px;
+  margin: auto;
+  padding: 60px 0px;
+  
+}
+
+
+.singleProduct-var-span{
+  width: 100%;
+ 
+}
+.singleProduct-span-content{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #FFBB32;
+border-radius: 21px;
+padding: 80px 0px;
+margin: auto;
+margin-bottom: 50px;
+}
+
+.span-content-left h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.singleProduct-span-img{
+  width: 30vw;
+  max-width: 402px;
+  min-width: 350px;
+  margin: auto;
+}
+.singleProduct-span-img img{
+  width: 30vw;
+  min-width: 350px;
+}
+.span-content-left{
+margin: auto;
+  max-width: 567px;
+}
+.span-content-left ol{
+  font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+align-items: center;
+list-style-type: disc;
+color: #FFFFFF;
+}
+.span-content-left ol li{
+  padding-top: 50px;
+}
+/*RES COMO MArques */
+ .resMarques{
+  background-color: #00A08F;
+}
+
+
+/*==========   Single Product Menu =================*/
+.singleProduct-recom-btn{
+  width: 100%;
+}
+.recom-btn{
+  max-width: 450.89px;
+  min-width: 250px;
+  
+  border-radius: 21px;
+  margin: auto;
+}
+.recom-btn h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+padding: 10px 0px;
+}
+.singleProduct-data{
+  width: 100%;
+}
+.singleProduct-data{
+  width: 100%;
+}
+.singleProduct-data-content{
+  width: 100%;
+}
+.singleProduct-menu{
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.singleProduct-menu-left{
+  padding-top: 20px;
+  margin: auto;
+  
+}
+
+#dogShape{
+  margin: auto;
+  padding-right: 100px;
+}
+
+#catShape{
+  padding-right: 100px;
+  margin: auto;
+}
+.singleProduct-menu-left img{
+  max-width: 375.51px;
+  min-width: 305px;
+  width: 20vw;
+  padding-top: 60px;
+}
+
+.singleProduct-menu-right{
+  width: 100%;
+  max-width: 530.97px;
+  margin: auto;
+  min-width: 350px;
+  max-height: 317.34px;
+  padding-top: 40px;
+}
+
+
+.single-menu{
+  display: flex;
+  width: 90%;
+  max-width: 530.97px;
+  margin: auto;
+  min-width: 350px;
+  background: #FFBB32;
+  min-height: 317px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 29px;
+}
+
+
+.productMenu-left{
+  margin: auto;
+ 
+
+}
+.productMenu-left h3{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+color: #000000;
+padding-top: 20px;
+}
+.productMenu-left p{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+
+.productMenu-right{
+  margin: auto;
+  padding-top: 20px;
+}
+.productMenu-righ .mainTitleMenu{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 22px;
-}
+  text-align: center;
+  color: #000000;
+  margin: auto;
+  align-items: center;
+  }
+.productMenu-right .menuData h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  padding-top: 40px;
+  }
+ 
+
 
 /*============================================
 ==========   PROCESS SECTION =================
@@ -2775,156 +3060,6 @@ font-size: 22px;
 
 
 
-/*//////////////////INDEX/////////////////////*/
-.home-section1{
-  width: 100%;
-  
-  display: flex;
-
-}
-
-.home-section-right{
-  width: 50%;
-  padding-bottom: 80px;
-  background: #FFBC15;
-box-shadow: 7px -5px 57px -15px rgba(0, 0, 0, 0.25);
-border-radius: 18px;
-}
-
-
-
-
-
-.home-section-left{
-  width: 50%;
-  padding-bottom: 80px;
-  background: #FFBC15;
-box-shadow: 7px -5px 57px -15px rgba(0, 0, 0, 0.25);
-border-radius: 18px;
-}
-.home-navbar{
-  width: 90%;
-  display: flex;
- margin: auto;
-  justify-content: space-between;
-  padding-top: 20px;
-}
-.home-logo-img img{
-  width: 60px;
-}
-.home-navbar-link{
-  margin-top: 10px;
-}
-.home-navbar-link h2{
-  font-family: 'Signika';
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #000000;
-
-}
-.home-section1-content{
-  width: 90%;
-  margin: auto;
-}
-.home-section1-main{
-  max-width: 1000px;
-  margin: auto;
-  
-}
-.home-section1-main h2{
-  font-family: 'Londrina Solid', cursive;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 133.7%;
-display: flex;
-align-items: center;
-letter-spacing: 0.035em;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-top: 70px;
-}
-
-.home-section1-main h1{
-font-family: 'Londrina Solid', cursive;
-font-style: normal;
-font-weight: 900;
-font-size: 60px;
-line-height: 133.7%;
-display: flex;
-align-items: center;
-letter-spacing: 0.035em;
-color: #171100;
-text-shadow: 0px 4px 4px rgba(87, 58, 2, 0.25)
-}
-.home-section1-divisor{
-  display: flex;
-  
-  width: 100%;
-
-}
-.home-section1-divisor p{
-  font-family: Open;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 152.7%;
-display: flex;
-align-items: center;
-letter-spacing: 0.075em;
-color: #000000;
-width: 15vw;
-width: 350px;
-margin-top: 120px;
-
-}
-
-.home-section1-divisor .home-section1-text{
-  width: 300px;
- 
-}
-.home-section1-divisor .home-section1-img img{
-  width: 400px;
-}
-
-.home-section1-btn{
-  width: 260px;
-  display: flex;
-  background: #3B3B3B;
-  border-radius: 19px;
-  padding: 5px;
-
-}
-.home-btn-img{
-  width: 49px;
-  margin-left: 10px;
-}
-.home-btn-text p{
-  font-family: 'Signika';
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 31px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-text-align: center;
-margin-left: 5px;
-margin-top: 5px;
-}
-
-.home-right-img1{
- 
-  z-index: 1;
-}
-.home-right-img2{
-  
-  z-index: 10;
-}
 
 
 

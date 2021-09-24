@@ -74,3 +74,62 @@ Author: GrayGrids
 
 
 })();
+
+document.getElementById("resHover0")
+  .addEventListener("mouseover", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+
+
+
+document.getElementById("resHover1")
+  .addEventListener("mouseover", function () {
+    document.getElementById("resSpan0").style.display = "none";
+    document.getElementById("resSpan1").style.display = "block";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+  
+  document.getElementById("resHover2")
+  .addEventListener("mouseover", function () {
+    document.getElementById("resSpan2").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+    document.getElementById("resSpan0").style.display = "none";
+  });
+  document.getElementById("resHover3")
+  .addEventListener("mouseover", function () {
+    document.getElementById("resSpan3").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan0").style.display = "none";
+  });
+  
+
+
+
+
+  document.getElementById("resHover1")
+  .addEventListener("mouseout", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+  document.getElementById("resHover2")
+  .addEventListener("mouseout", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+  document.getElementById("resHover3")
+  .addEventListener("mouseout", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
