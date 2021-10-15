@@ -3211,6 +3211,15 @@ color: #FFFFFF;
 background: #4761A7;
 box-shadow: 7px -5px 57px -15px rgba(0, 0, 0, 0.25);
 }
+.pollo-fuertote{
+  background: #E34B5C;
+box-shadow: 7px -5px 57px -15px rgba(0, 0, 0, 0.25);
+}
+
+.pescado-enamorado{
+  background: #6C92C4;
+box-shadow: 7px -5px 57px -15px rgba(0, 0, 0, 0.25);
+}
 
 
 /*==========   Single Product Menu =================*/
