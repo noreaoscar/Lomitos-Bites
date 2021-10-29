@@ -2256,9 +2256,7 @@ margin-left: 45%;
 width: 55vw;
 
 }
-.index-right img{ 
- 
-}
+
 .index-title{
   width: 80%;
   margin: auto;
@@ -2886,18 +2884,26 @@ padding-bottom: 100px;
 
 .categories-singleLabel-area{
   width: 100%;
-  max-width: 1750px;
+  max-width: 1350px;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 100px;
   margin: auto;
+  
 }
 .cateogries-singleLabel{
   
-  
+  min-width: 340px;
   margin: auto;
   margin-top: 30px;
+
   
+}
+.cateogries-singleLabel a{
+margin: auto ;
+width: 100%;
+padding: 20px;
+
 }
 .cateogries-singleLabel h2{
   font-family: 'Open Sans', sans-serif;
@@ -2905,12 +2911,15 @@ font-style: normal;
 font-weight: bold;
 font-size: 25px;
 line-height: 34px;
+padding-bottom: 20px;
+
 
 align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
 color: #000000;
 margin: auto;
+
 
 }
 .singleLabel-img1{
@@ -3158,14 +3167,16 @@ text-align: right;
 color: #000000;
 padding-top: 50px;
 padding-bottom: 50px;
+
 }
+
 .singleProduct-header-btn{
   display: flex;
   width: 30vw;
   max-width: 404.44px;
   min-width: 350px;
   background-color: #3B3B3B;
-  float: right;
+  
   border-radius: 19px;
   
 }
@@ -3186,16 +3197,25 @@ padding: 5px 0px;
   padding: 5px 0px;
   
 }
+.btn-products-refer{
+  width: 30vw;
+  max-width: 404.44px;
+  min-width: 350px;
+  
+  float: right;
+}
 @media only screen and (max-width: 940px) {
+  .singleProduct-header-right{
+    background-color: green;
+  }
   .singleProduct-header-right h3{
     text-align: center;
   }
   .singleProduct-header-right p{
     text-align: center;
   }
-  .singleProduct-header-btn{
+  .btn-products-refer{
     
-    width: 30vw;
     
     float: none;
     margin: auto;
@@ -4054,9 +4074,7 @@ box-shadow: 7px -5px 57px -15px rgba(0, 0, 0, 0.25);
   padding:40px;
   line-height:32px;
 }
-.col-4 img{
 
-}
 .us-main1-left{
   margin:auto;
   background-color:#ffbc15;
