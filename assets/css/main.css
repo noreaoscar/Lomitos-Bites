@@ -3205,9 +3205,7 @@ padding: 5px 0px;
   float: right;
 }
 @media only screen and (max-width: 940px) {
-  .singleProduct-header-right{
-    background-color: green;
-  }
+  
   .singleProduct-header-right h3{
     text-align: center;
   }
@@ -4200,7 +4198,48 @@ PADDING-TOP: 24PX;
   color: #171100;
   text-shadow: 0px 4px 4px rgba(87, 58, 2, 0.25);
 }
+.buttons-us{
+ 
+  width: 630px;
+  margin: auto;
+  
+  }
 
+.btn-us-section{
+  margin: auto;
+  width: 300px;
+}
+
+@media (max-width:767px){
+  .buttons-us{
+    
+    width: 330px;
+    
+    
+    }
+    .btn-us-section{
+   
+      margin-top: 30px;
+     
+    }
+
+}
+
+@media (max-width:460px){
+  .buttons-us{
+    
+    width: 330px;
+    margin: auto;
+    
+    }
+  
+  .btn-us-section{
+   
+    margin-top: 30px;
+   
+  }
+
+}
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
