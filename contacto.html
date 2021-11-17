@@ -179,6 +179,19 @@ Premios naturales” />
 
        
 </main>
+
+<?php 
+if($_POST){
+  $destinatario = "contacto@lomitobites.com.mx
+  ."; 
+  $asunto = 'asunto';
+  $name = $_POST['nombre'];
+  $message = $_POST['mensaje'];
+  $email = $_POST['email'];
+  mail($destinatario.",".$email,$asunto,"Enviado por: ". $name. ", Mensaje:".$message); 
+}
+?>
+
 <div class="contact-info-btn">
     <a href=""><img src="assets/img/icons/whatsapp-black.svg" alt=""></a>
     <a href=""><img src="assets/img/icons/messenger-black.svg" alt=""></a>
