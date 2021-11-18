@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CDN FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="modal-body">
+        <div class="modal-content">
+        <div class="modal-title">
+            <h2>Delivery settings</h2>
+        </div>
+        <div class="modal-stepper">
+            <label for="" class="label-active">Preferences</label>
+            <label for="" class="label2">Targets</label>
+        </div>
+
+        <!-- Start Preferences area -->
+        <div class="modal-section1" style="display: none;">
+            <div class="modal-form">
+            <div class="modal-output">
+                <h3>Output Type
+                </h3>
+                <form name="formulario" method="post" action="/send.php" >
+                    
+                    <input type="text" list="items" class="pdf-input input-section1" placeholder="Pdf  "/>
+                    <datalist id="items">
+                      <option value="1">Opción 1</option>
+                      <option value="2">Opción 2</option>
+                      <option value="3">Opción 3</option>
+                    </datalist>
+                  </form>
+
+            </div>
+            <div class="current">
+                <h3>Delivery current version</h3>
+                <input type="text" placeholder="00-00-00" class="input-section1">
+            </div>
+            <div class="archive">
+                <h3>Delivery archive version</h3>
+                <input type="text" placeholder="00-00-00" class="input-section1">
+            </div>
+        </div>
+        <div class="modal-checkbox">
+            <form action="/action_page.php" class="checkbox-content">
+                <div class="checkbox">
+                    <input type="checkbox" id="type1" name="type1" value="type1" >
+                    <label for="type1"> Send notice of completion to user</label><br>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="type2" name="type2" value="type2">
+                    <label for="type2"> Send notice of completion to e-mail targets</label><br>
+               </div>
+                <input type="submit" value="Deliver" class="section1-submit">
+              </form>
+        </div>
+        </div>
+        <!--End Preferences area -->
+        <div class="modal-section2" >
+            <h3>Subject</h3>
+            <input type="text" placeholder="Type a subject">
+            <h3>Message</h3>
+            <textarea name="text" style="resize: none;" placeholder="Type a message"></textarea>
+            <h3>Email</h3>
+            <input type="email" name="email-users" id="" placeholder="Add user's email">
+            <h3>Other email targets</h3>
+            <input type="email" name="" id="" placeholder="Other email targets">
+            <h3>FTP Targets</h3>
+            <input type="email" name="" id="" placeholder="Add user's email">
+            <div class="subtmit-section2">
+            <input type="submit" value="Render and Send" class="submit">
+            <input type="submit" value="Rebder and archive" class="submit second-sub">
+        </div>
+        </div>
+    </div>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    box-sizing: none;
+}
+
+body{
+    background-color: rgb(197, 197, 197);
+}
+
+
+
+/*Start Modal CSS*/
+.modal-body{
+    background-color: white;
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+@media(max-width: 500px) {
+   
+}
+.modal-content{
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.modal-title {
+padding-top: 20px;
+padding-bottom: 10px;
+border-bottom: solid 2px rgba(0, 0, 0, 0.342);
+}
+.modal-title h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    }
+
+.modal-stepper{
+    padding-top: 10px;
+    
+}
+.modal-stepper label{
+    color: rgba(0, 0, 0, 0.356);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-right: 30px;
+
+   }
+   .modal-stepper .label-active{
+    color: black;
+}
+.modal-stepper .label2:hover {
+ color: black;
+}
+
+
+/*Modal section 1*/
+.modal-form{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+@media(max-width: 500px) {
+    .modal-form{
+        flex-wrap: wrap;
+    }
+    .modal-form h3{
+        padding-top: 5px;
+    }
+}
+.modal-form h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.356);
+    padding-bottom: 10px;
+}
+
+.input-section1{
+border-radius: 5px;
+padding: 5px ;
+background-color: rgba(0, 0, 0, 0.103);
+border: rgba(0, 0, 0, 0.158) solid 1px;
+}
+.input-section1::placeholder{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgba(0, 0, 0, 0.288);
+    }
+
+.pdf-input{
+    background-image: url(/211614_down_b_arrow_icon.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 80px;
+}
+.checkbox-content{
+    padding-top: 35px;
+}
+.checkbox{
+    padding-bottom: 20px;
+}
+
+.checkbox label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.section1-submit{
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.modal-section1{
+    padding-bottom: 25px;
+    border-bottom: solid rgba(0, 0, 0, 0.342) 2px;
+}
+
+
+
+/*Section 2*/
+.modal-section2{
+    padding-top: 10px;
+}
+.modal-section2 h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: rgba(0, 0, 0, 0.356);
+        padding-bottom: 5px;
+        padding-top: 15px;
+        font-weight: 700px;
+    
+}
+
+.modal-section2 input{
+    width: 100%;
+    padding: 5px 0px;
+    border-radius: 4px;
+    border: solid rgba(0, 0, 0, 0.349) 1px;
+    background-color: rgba(0, 0, 0, 0.082);
+
+}
+.modal-section2 textarea{
+    width: 100%;
+    height: 110px;
+    padding: 5px 0px;
+    border-radius: 4px;
+    border: solid rgba(0, 0, 0, 0.349) 1px;
+    background-color: rgba(0, 0, 0, 0.082);
+
+}
+
+.modal-section2 input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.356);
+    padding-bottom: 5px;
+    padding-top: 12px;
+    font-weight: 500;
+    padding-left: 10px;
+
+}
+.modal-section2 textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.356);
+    padding-bottom: 5px;
+    padding-top: 12px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+
+.modal-section2 .submit{
+    width: 30%;
+    padding: 17px 0px;
+    border-radius: 4px;
+    border: solid rgba(0, 0, 0, 0.349) 1px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+       
+        font-weight: 700px;
+
+}
+.modal-section2 .second-sub{
+    background-color: rgba(0, 0, 0, 0.432);
+
+}
+
+
