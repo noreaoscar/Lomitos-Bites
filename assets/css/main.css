@@ -3767,16 +3767,30 @@ margin: auto;
     padding-top: 120px;
   }
   
+
 }
 
-
-
-
-
-
-
-
-
+.perrito{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  
+  padding-top: 50px;
+}
+.perritoGrande{
+  display: none;
+}
+@media(max-width:650px){
+  .perrito{
+    display: none;
+  }
+  .perritoGrande{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
 
 /*///////////////////////////////////
 ////////////EXTRA///////////////////
