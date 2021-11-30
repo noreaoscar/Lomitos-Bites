@@ -75,129 +75,27 @@ Author: GrayGrids
 
 })();
 
-document.getElementById("resHover0")
-  .addEventListener("mouseover", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
 
 
 
-document.getElementById("resHover1")
-  .addEventListener("mouseover", function () {
-    document.getElementById("resSpan0").style.display = "none";
-    document.getElementById("resSpan1").style.display = "block";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
+
+
+
+
+  const tabs2 = document.querySelectorAll(".tab2");
+  const contents2 = document.querySelectorAll(".content2");
   
-  document.getElementById("resHover2")
-  .addEventListener("mouseover", function () {
-    document.getElementById("resSpan2").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-    document.getElementById("resSpan0").style.display = "none";
-  });
-  document.getElementById("resHover3")
-  .addEventListener("mouseover", function () {
-    document.getElementById("resSpan3").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan0").style.display = "none";
-  });
-  
-
-
-
-
-  document.getElementById("resHover1")
-  .addEventListener("mouseout", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
-  document.getElementById("resHover2")
-  .addEventListener("mouseout", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
-  document.getElementById("resHover3")
-  .addEventListener("mouseout", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
-
-
-
-
-
-  
-//ONCLICK///////////////////////////
-
-document.getElementById("resHover0")
-  .addEventListener("click", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
-
-
-
-document.getElementById("resHover1")
-  .addEventListener("click", function () {
-    document.getElementById("resSpan0").style.display = "none";
-    document.getElementById("resSpan1").style.display = "block";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
-  
-  document.getElementById("resHover2")
-  .addEventListener("click", function () {
-    document.getElementById("resSpan2").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-    document.getElementById("resSpan0").style.display = "none";
-  });
-  document.getElementById("resHover3")
-  .addEventListener("click", function () {
-    document.getElementById("resSpan3").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan0").style.display = "none";
-  });
-  
-
-
-
-
-  document.getElementById("resHover1")
-  .addEventListener("click", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
-  document.getElementById("resHover2")
-  .addEventListener("click", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
-  document.getElementById("resHover3")
-  .addEventListener("click", function () {
-    document.getElementById("resSpan0").style.display = "block";
-    document.getElementById("resSpan1").style.display = "none";
-    document.getElementById("resSpan2").style.display = "none";
-    document.getElementById("resSpan3").style.display = "none";
-  });
+  for (let i = 0; i < tabs2.length; i++) {
+    tabs2[i].addEventListener("click", () => {
+      for (let j = 0; j < contents2.length; j++) {
+        contents2[j].classList.remove("content--active");
+      }
+      for (let jj = 0; jj < tabs2.length; jj++) {
+        tabs2[jj].classList.remove("tabs--active");
+      }
+      contents2[i].classList.add("content--active");
+      tabs2[i].classList.add("tabs--active");
+    });
+  }
 
   
