@@ -134,4 +134,70 @@ document.getElementById("resHover1")
     document.getElementById("resSpan3").style.display = "none";
   });
 
+
+
+
+
+  
+//ONCLICK///////////////////////////
+
+document.getElementById("resHover0")
+  .addEventListener("click", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+
+
+
+document.getElementById("resHover1")
+  .addEventListener("click", function () {
+    document.getElementById("resSpan0").style.display = "none";
+    document.getElementById("resSpan1").style.display = "block";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+  
+  document.getElementById("resHover2")
+  .addEventListener("click", function () {
+    document.getElementById("resSpan2").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+    document.getElementById("resSpan0").style.display = "none";
+  });
+  document.getElementById("resHover3")
+  .addEventListener("click", function () {
+    document.getElementById("resSpan3").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan0").style.display = "none";
+  });
+  
+
+
+
+
+  document.getElementById("resHover1")
+  .addEventListener("click", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+  document.getElementById("resHover2")
+  .addEventListener("click", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+  document.getElementById("resHover3")
+  .addEventListener("click", function () {
+    document.getElementById("resSpan0").style.display = "block";
+    document.getElementById("resSpan1").style.display = "none";
+    document.getElementById("resSpan2").style.display = "none";
+    document.getElementById("resSpan3").style.display = "none";
+  });
+
   
