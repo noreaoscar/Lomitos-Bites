@@ -3347,9 +3347,10 @@ font-style: normal;
 font-weight: bold;
 font-size: 22px;
 line-height: 30px;
-align-items: center;
+align-items: left;
 list-style-type: disc;
 color: #FFFFFF;
+text-align: left;
 }
 @media only screen and (max-width: 700px) {
   .span-content-left h3{
@@ -3411,10 +3412,17 @@ box-shadow: 7px -5px 57px -15px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
+  text-align: left;
   line-height: 30px;
   align-items: center;
   list-style-type: disc;
   color: #ff0000;
+}
+
+.alert-text p{
+ 
+  text-align: left;
+ 
 }
 
 
@@ -4357,7 +4365,7 @@ section .section-title {
 
 
 .container2 {
-max-width: 1150px;
+max-width: 1400px;
 min-height: 16em;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 4px;
