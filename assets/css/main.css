@@ -4435,6 +4435,26 @@ font-weight: 300;
 
 
 
+.about-item-img img{
+  border-radius: 50px;
+}
+
+.bg-manchas1{
+  background-image: url("../BG/manchas1.png");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.container--tabs li{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+
+
+
 
 
 
