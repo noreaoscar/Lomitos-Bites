@@ -150,27 +150,31 @@ Premios naturales” />
            <div class="form-contact-content wow bounceInDown">
            <div class="form-contact">
 
+            <form>
+                <h2>Llena el formulario y nos pondremos en contacto contigo</h2>
+                <div class="form-item">
+                    <input id="nombre" name="nombre" type="text" placeholder="Nombre" required>
+                </div>
+                <div class="form-item">
+                    <input id="nombreMascota" name="nombreMascota" type="text" placeholder="Nombre de tu Mascota">
+                </div>
+                <div class="form-item">
+                   
+                    <input id="email" name="email" placeholder="Correo electrónico" type="email" required>
+                </div>
+                <div class="form-item">
+                    
+                    <input id="asunto" name="asunto" placeholder="asunto" type="text">
+                </div>
+                <div class="form-item">
+                  
+                    <textarea id="mensaje" placeholder="Mensaje" name="mensaje" required></textarea>
+                </div>
+                <div class="container-button">
+                    <button class="button_default" type="submit">ENVIAR</button>
+                </div>
+            </form>
                
-               <h2>Llena el formulario y nos prontemos en contacto contigo lo más pronto posible </h2>
-               <div class="input-area">
-                   <input type="text" placeholder="Nombre completo" required="required">
-               </div>
-               <div class="input-area">
-                   <input type="text" placeholder="Nombre de tu mascota" required="required">
-               </div>
-               <div class="input-area">
-                   <input type="text" placeholder="Número de teléfono" required="required">
-               </div>
-               <div class="input-area">
-                   <input type="email" placeholder="Correo electrónico" required="required">
-               </div>
-               <div class="input-area contac-textArea">
-                   <input type="text" placeholder="Mensaje" required="required">
-               </div>
-                   <div class="btn-form">
-                       <button type="textarea" class="">Enviar formulario</button>
-                   </div>
-
            </div>
        </div>
       
@@ -182,8 +186,8 @@ Premios naturales” />
 
 <?php 
 if($_POST){
-  $destinatario = "contacto@lomitobites.com.mx
-  ."; 
+  $destinatario = "noreaoscar@gmail.com"; 
+  $nombreMascota = 'nombreMascota';
   $asunto = 'asunto';
   $name = $_POST['nombre'];
   $message = $_POST['mensaje'];

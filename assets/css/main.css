@@ -4452,10 +4452,83 @@ font-weight: 300;
 }
 
 
+/*
+          NEW CONTACT FORM
+*/
+.form-contact-content{
+  max-width: 700px;
+  width: 98%;
+  
+}
+.form-contact{
+  width: 100%;
+  max-width: 700px;
+}
+
+.form-contact form h2{
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.form-item{
+  width: 90%;
+ margin: auto;
+ max-width: 550px;
+ padding-top: 20px;
+
+}
+.form-item input{ 
+  width: 100%;
+ height: 46px;
+ border-radius: 2em;
+ border: 3px solid black;
+}
+
+.form-item input::placeholder{ 
+  text-align: center;
+  opacity: 100;
+  color: black;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 20px;
+}
+
+.form-item textarea{ 
+  width: 100%;
+ height: 155px;
+ border-radius: 2em;
+ border: 3px solid black;
+}
 
 
+.form-item textarea::placeholder{ 
+  text-align: center;
+  opacity: 100;
+  color: black;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+}
 
-
-
+.container-button{
+  width: 50%;
+  max-width: 249px;
+  margin: auto;
+  
+}
+.container-button button{
+  width: 100%;
+  height: 40px;
+  border-radius: 1px solid black;
+  border-radius: 2em;
+  background-color: black;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 20px;
+}
 
 
