@@ -192,7 +192,7 @@ if($_POST){
   $name = $_POST['nombre'];
   $message = $_POST['mensaje'];
   $email = $_POST['email'];
-  mail($destinatario.",".$email,$asunto,"Enviado por: ". $name. ", Mensaje:".$message); 
+  mail($destinatario.",".$email,$asunto,"Enviado por: ". $name."Nombre de la Mascota:". $nombreMascota. ", Mensaje:". $message); 
 }
 ?>
 
