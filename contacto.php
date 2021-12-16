@@ -187,7 +187,7 @@ Premios naturales” />
 <?php 
 if($_POST){
   $destinatario = "noreaoscar@gmail.com"; 
-  $nombreMascota = 'nombreMascota';
+  $nombreMascota = $_POST['nombreMascota'];
   $asunto = 'asunto';
   $name = $_POST['nombre'];
   $message = $_POST['mensaje'];
