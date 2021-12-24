@@ -4536,7 +4536,14 @@ font-weight: 300;
 
 .categories-bg{
  background-image: url("../BG/products-bg.png");
+ background-repeat: no-repeat;
+ background-size: cover;
 }
+.cerdito-bg{
+  background-image: url("../BG/cerdito-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 
 .categories-mainBg{
   background-image: url("../BG/Fondo\ Estrellas.png");
