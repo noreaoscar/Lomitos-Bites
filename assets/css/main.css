@@ -4532,3 +4532,15 @@ font-weight: 300;
 }
 
 
+/*Backgrounds*/
+
+.categories-bg{
+ background-image: url("../BG/products-bg.png");
+}
+
+.categories-mainBg{
+  background-image: url("../BG/Fondo\ Estrellas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
