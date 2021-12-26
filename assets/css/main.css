@@ -4544,6 +4544,16 @@ font-weight: 300;
   background-repeat: no-repeat;
   background-size: cover;
  }
+ .resMarques-bg{
+   background-image: url("../BG/resMarques-BG.svg");
+   background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .resMarques-main-bg{
+   background-image: url("../BG/res-Marques-main.svg");
+   background-repeat: no-repeat;
+  background-size: cover;
+ }
 
 .categories-mainBg{
   background-image: url("../BG/Fondo\ Estrellas.png");
