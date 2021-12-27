@@ -3300,20 +3300,27 @@ padding: 5px 0px;
 
 .singleProduct-var-span{
   width: 100%;
+ padding-bottom: 25px;
  
+ max-width: 1180px;
+ border-radius: 21px;
 }
 .singleProduct-span-content{
-  width: 95%;
-  max-width: 1200px;
+  width: 100%;
+ 
   display: flex;
   flex-wrap: wrap;
   background: #FFBB32;
 border-radius: 21px;
-padding: 80px 0px;
+box-shadow: 0px 35px 5px 4px #00000048;  
 margin: auto;
 margin-bottom: 50px;
 }
 
+
+.resMarques-content{
+  
+}
 .span-content-left h3{
   
   font-family: 'Open Sans', sans-serif;
@@ -3328,14 +3335,16 @@ margin-bottom: 50px;
 }
 
 .singleProduct-span-img{
-  width: 30vw;
-  max-width: 402px;
-  min-width: 350px;
+  width: 50%;
+ 
   margin: auto;
+  
+  
 }
 .singleProduct-span-img img{
-  width: 30vw;
+  width: 100%;
   min-width: 350px;
+  border-radius: 21px;
 }
 .span-content-left{
 margin: auto;
@@ -4549,6 +4558,17 @@ font-weight: 300;
    background-repeat: no-repeat;
   background-size: cover;
  }
+ .polloFuertote-bg{
+  background-image: url("../BG/polloFuertote-BG.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.polloFuertote-main{
+  background-image: url("../BG/polloFuertote-main.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
  .resMarques-main-bg{
    background-image: url("../BG/res-Marques-main.svg");
    background-repeat: no-repeat;
