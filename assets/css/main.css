@@ -4575,6 +4575,42 @@ font-weight: 300;
   background-size: cover;
  }
 
+ .pescadoEnamorado-main-bg{
+  background-image: url("../BG/pescadoEnamorado-main.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+ .pescado-bg{
+  background-image: url("../BG/pescado-BG.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.mixFelix-bg{
+  background-image: url("../BG/mixFelix-bg.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.mixFelix-main-bg{
+  background-image: url("../BG/mixFelix-main.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.carnaza-BG{
+  background-image: url("../BG/carnaza-BG.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.carnaza-main-bg{
+  background-image: url("../BG/carnaza-main.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
 .categories-mainBg{
   background-image: url("../BG/Fondo\ Estrellas.png");
   background-repeat: no-repeat;
