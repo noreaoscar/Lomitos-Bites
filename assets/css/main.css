@@ -3318,9 +3318,7 @@ margin-bottom: 50px;
 }
 
 
-.resMarques-content{
-  
-}
+
 .span-content-left h3{
   
   font-family: 'Open Sans', sans-serif;
@@ -3794,20 +3792,10 @@ margin: auto;
   
   padding-top: 50px;
 }
-.perritoGrande{
-  display: none;
+.perrito img{
+  width: 100%;
 }
-@media(max-width:650px){
-  .perrito{
-    display: none;
-  }
-  .perritoGrande{
-    display: block;
-    width: 90%;
-    margin: auto;
-    padding-top: 50px;
-  }
-}
+
 
 /*///////////////////////////////////
 ////////////EXTRA///////////////////
@@ -4613,6 +4601,13 @@ font-weight: 300;
 
 .categories-mainBg{
   background-image: url("../BG/Fondo\ Estrellas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.cerdito-mainBg{
+  background-image: url("../BG/cerdito-main.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
