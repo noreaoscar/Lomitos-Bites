@@ -4612,3 +4612,70 @@ font-weight: 300;
   background-size: cover;
 }
 
+/*
+    About Us new
+*/
+.aboutUs-main{
+  margin: auto;
+  width: 80%;
+  max-width: 735PX;
+}
+
+.aboutUs-main img{
+  width: 100%;
+}
+
+.aboutUs-text p{
+  font-family: Open "Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.aboutUs-textContent{
+  width: 100%;
+  padding-top: 50px;
+}
+.aboutUs-text {
+  margin: auto;
+  font-size: 38px;
+  width: 70%;
+  max-width: 799px;
+  background: #F6B200;
+  border-radius: 23px;
+  padding: 24px 74px;
+}
+@media (max-width:899px){
+  .aboutUs-text p{
+    font-size: 28px;
+  }
+}
+@media (max-width:767px){
+  .aboutUs-text p{
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+@media (max-width:600px){
+  .aboutUs-text p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .aboutUs-text {
+    padding: 10px 5px;
+    min-width: 250px;
+  }
+  .categories-section2-right{
+    width: 60%;
+  }
+  .aboutUs-textContent{
+    width: 100%;
+    padding-top: 10px;
+  }
+}
+
