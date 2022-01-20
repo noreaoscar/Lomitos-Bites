@@ -4612,6 +4612,29 @@ font-weight: 300;
   background-size: cover;
 }
 
+.premium-BG{
+  background-image: url("../BG/premium-BG.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.premium-main-BG{
+  background-image: url("../BG/premium-main-BG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.veggie-BG{
+  background-image: url("../BG/veggie-BG.svg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.veggie-main-BG{
+  background-image: url("../BG/veggie-main-BG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*
     About Us new
 */
