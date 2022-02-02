@@ -4635,6 +4635,17 @@ font-weight: 300;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.pollitoIto-BG{
+  background-image: url("../BG/pollitoIto-BG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pollitoIto-main-BG{
+  background-image: url("../BG/pollitoIto-BG-main.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*
     About Us new
 */
